@@ -1,0 +1,38 @@
+<div class="internship-card">
+  <div class="internship-logo-wrap">
+    <img class="internship-logo" src="{{ include.logo }}" alt="{{ include.logo_alt | default: include.title }}">
+  </div>
+  <div class="internship-content">
+    <div class="internship-title-row">
+      <h3 class="internship-title">
+        {% if include.url %}
+          <a href="{{ include.url }}">{{ include.title }}</a>
+        {% else %}
+          {{ include.title }}
+        {% endif %}
+      </h3>
+      {% if include.badge %}
+        <span class="internship-badge">{{ include.badge }}</span>
+      {% endif %}
+    </div>
+    <div class="internship-meta">
+      {% if include.period %}
+        <span class="internship-meta-item"><i class="fas fa-calendar-alt"></i>{{ include.period }}</span>
+      {% endif %}
+      {% if include.location %}
+        <span class="internship-meta-item"><i class="fas fa-map-marker-alt"></i>{{ include.location }}</span>
+      {% endif %}
+      {% if include.supervisor %}
+        <span class="internship-meta-item">
+          <i class="fas fa-user"></i>
+          Supervised by
+          {% if include.supervisor_url %}
+            <a href="{{ include.supervisor_url }}">{{ include.supervisor }}</a>
+          {% else %}
+            {{ include.supervisor }}
+          {% endif %}
+        </span>
+      {% endif %}
+    </div>
+  </div>
+</div>
