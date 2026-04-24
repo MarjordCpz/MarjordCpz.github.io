@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 0em;
+  background: $background-color;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -118,6 +119,17 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+  -webkit-transition: color 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+  transition: color 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+  }
   
   &:focus {
     @extend %tab-focus;
