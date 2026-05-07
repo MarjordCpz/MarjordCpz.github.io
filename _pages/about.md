@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About Me
+<h1>About Me</h1>
 
 I am Peizhou Cao, currently a second-year Ph.D. student at [Beihang University (BUAA)](https://ev.buaa.edu.cn/) and [Shanghai AI Laboratory](https://www.shlab.org.cn/), co-supervised by [Jiangmiao Pang](http://oceanpang.github.io/) and [Dahua Lin](http://dahua.site/). Previously, I obtained my B.Eng. degree in [Electronic Engineering](https://ensee.xidian.edu.cn/) from [Xidian University](https://www.xidian.edu.cn/) in 2024.
 
