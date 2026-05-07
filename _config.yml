@@ -7,8 +7,10 @@
 
 # Site Settings
 title                    : "Peizhou Cao"
-description              :
+description              : "Peizhou Cao is a Ph.D. student at Beihang University and Shanghai AI Laboratory."
 repository               : "MarjordCpz/MarjordCpz.github.io"
+url                      : "https://marjordcpz.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics

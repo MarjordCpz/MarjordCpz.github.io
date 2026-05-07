@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: ""
+title: "Peizhou Cao's Homepage"
+description: "Peizhou Cao is a Ph.D. student at Beihang University and Shanghai AI Laboratory."
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -17,7 +18,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year Ph.D. student at [Beihang University (BUAA)](https://ev.buaa.edu.cn/) and [Shanghai AI Laboratory](https://www.shlab.org.cn/), co-supervised by [Jiangmiao Pang](http://oceanpang.github.io/) and [Dahua Lin](http://dahua.site/). Previously, I obtained my B.Eng. degree in [Electronic Engineering](https://ensee.xidian.edu.cn/) from [Xidian University](https://www.xidian.edu.cn/) in 2024.
+# About Me
+
+I am Peizhou Cao, currently a second-year Ph.D. student at [Beihang University (BUAA)](https://ev.buaa.edu.cn/) and [Shanghai AI Laboratory](https://www.shlab.org.cn/), co-supervised by [Jiangmiao Pang](http://oceanpang.github.io/) and [Dahua Lin](http://dahua.site/). Previously, I obtained my B.Eng. degree in [Electronic Engineering](https://ensee.xidian.edu.cn/) from [Xidian University](https://www.xidian.edu.cn/) in 2024.
 
 # 📝 Publications
 
